@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tribute Page</title>
+
+<style>
+body{
+text-align:center;
+background-color:white;
+font-family:Times New Roman;
+}
+
+/* Navigation Bar */
+.navbar{
+margin-top:10px;
+}
+
+.navbar a{
+text-decoration:underline;
+color:blue;
+font-size:18px;
+margin:0 10px;
+}
+img{
+width:200px;
+margin-top:10px;
+}
+
+/* Paragraph style */
+p{
+width:60%;
+margin:auto;
+margin-top:15px;
+font-size:18px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Tribute to Jadu</h1>
+
+<div class="navbar">
+<a href="#">Home</a>
+<a href="#">Life</a>
+<a href="#">Achievements</a>
+</div>
+
+<br>
+
+<img src="C:\Users\sujal\Desktop/jadu.jpg" alt="Jadu">
+
+<h3>
+Jadu was head of alien and one of the greatest alien of the planet.
+He played a key role in making Rohit very powerful.
+</h3>
+
+<h3>
+Known as the "Alien", he inspired me to do not say dhoop dhoop just do hardwork.
+</h3>
+
+</body>
+</html>
