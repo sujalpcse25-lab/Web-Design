@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Image Gallery</title>
+    <link rel="stylesheet"
+  href="css files/design.css">
+</head>
+<body>
+	<p><b>
+	Name: Sujal Pandole<br>
+	USN: CS25048<br>
+	Section A<br>
+	</b></p>
+<br>
+
+    <h1>Bollywood Heroes Gallery</h1>
+<br>
+
+    <div class="gallery">
+       
+	<div class="card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.fgG7WJ006g05M95Pc9A55QHaEK?rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Shah Rukh Khan</p>
+	</div>
+
+        <div class="card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.MQGBVfRJxdY5NDas2y5GTgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3">
+            <p>Aamir Khan</p>
+        </div>
+
+        <div class="card">
+            <img src= "https://tellyreviews.com/wp-content/uploads/2025/10/akshay-kumar.webp">
+            <p>Akshay Kumar</p>
+    	</div>
+   
+	<div class="card">
+		 <img src="https://th.bing.com/th/id/OIP.5vb1IqTZcm0s3qWaLUwF9wHaEc?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+		 <p>Salman Khan</p>
+
+	</div>
+	<div class="card">
+		<img src="https://www.masala.com/cloud/2025/02/11/7r71XbR3-hrithik-roshan--1200x900.jpg">
+        <p>Hrithik Roshan</p>
+	</div>
+
+		
+	<div class="card">
+		<img src="https://th.bing.com/th/id/OIF.VAPjuNVLjJfQCLLYN1mHMQ?w=314&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3">
+        <p>Ranbir Kapoor</p>
+	</div>
+
+	<div class ="card">
+		<img src="https://th.bing.com/th/id/OIP.rGQuzz6ULDNznQuR4ugqSQHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <p>John Abraham</p>
+
+	</div>
+
+	<div class ="card">
+		<img src="https://th.bing.com/th/id/OIP.r7g1_EMyu3xQs5O4dxzHhwHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <p>Varun Dhawan</p>
+	</div>
+
+	<div class="card">
+		<img src="https://tse1.explicit.bing.net/th/id/OIP.dkuBKRZInTX_gUSqF04AfgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3">
+        <p>Sidharth Malhotra</p>
+	</div>
+	<div class="card">
+		<img src="https://tse4.mm.bing.net/th/id/OIP.uWtNbcQ9_Y1tf0DBIRmZTwHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3">
+        <p>Tiger Shroff</p>
+      	</div>
+
+	<div class="card">
+		<img src="https://tse1.mm.bing.net/th/id/OIP.b2rKQkRDL7KK3itnwDdyTQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3">
+        <p>Kartik Aaryan</p>
+	</div>
+
+	<div class="card">
+		<img src="https://tse3.mm.bing.net/th/id/OIP.alueQtHBgdOprMyK0q_DewHaEK?rs=1&pid=ImgDetMain&o=7&rm=3">
+        <p>Ajay Devgn</p>
+</div>
+
+	<div class="card">
+	<img src="https://www.thestatesman.com/wp-content/uploads/2025/01/saif-ali-khan-celebs-jpg.webp">
+        <p>Saif Ali Khan</p>
+	</div>
+
+	<div class="card">
+	<img src="https://th.bing.com/th/id/OIP.AF6VFxn4cI1GmwHqIGa2rwHaFj?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <p>Arjun Kapoor</p>
+	</div>
+
+	<div class="card">
+	<img src="https://assets.telegraphindia.com/telegraph/2024/Feb/1708056771_emraan-hashmi.jpg">
+        <p>Emraan Hashmi</p>
+	</div>
+
+	<div class="card">
+	<img src="https://tse2.mm.bing.net/th/id/OIP.e3LieceS6CUrSZEexLJZgwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3">
+    <p>Abhishek Bachchan</p>
+	</div>
+
+	<div class="card">
+	<img src="https://tse4.mm.bing.net/th/id/OIP.19KQGbgPBvdBKse_2cmfTgHaEV?rs=1&pid=ImgDetMain&o=7&rm=3">
+    <p>Sunny Deol</p>
+	</div>
+
+	<div class="card">
+	<img src="https://tse3.mm.bing.net/th/id/OIP.v92e64OKVIKnthZV8NY1HwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3">
+    <p>Sanjay Dutt</p>
+	</div>
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.ke96ecPpvJDZDfCanXWMmwHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+      <p>Nawazuddin Siddiqui</p>
+    </div>
+
+</body>
+</html>
