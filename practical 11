@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 API Basics</title>
+</head>
+<body>
+
+  <h1>HTML5 API Basics</h1>
+
+  <!-- Drag & Drop -->
+  <h2>Drag & Drop</h2>
+  <div id="drag" draggable="true" 
+       style="width:100px;height:100px;border:1px solid rgb(228, 25, 25);
+              text-align:center;border-radius:50%;background-color:blue;
+              color:white;line-height:100px;">
+    Drag me
+  </div>
+  <div id="drop" style="width:150px;height:50px;border:1px dashed black;
+                        text-align:center;margin-top:10px;">
+    Drop here
+  </div>
+  <p id="dragResult"></p>
+
+  <!-- Geolocation -->
+  <h2>Geolocation</h2>
+  <button onclick="getLocation()">Get Location</button>
+  <p id="geoResult"></p>
+  <h2>Storage</h2>
+  <input type="text" id="dataInput" placeholder="Enter something">
+  <button onclick="saveData()">Save</button>
+  <button onclick="loadData()">Load</button>
+  <p id="storageResult"></p>
+
+  <script>
+    // Drag & Drop
+    const drag = document.getElementById("drag");
+    const drop = document.getElementById("drop");
+    const dragResult = document.getElementById("dragResult");
+
+    drag.addEventListener("dragstart", e => {
+      e.dataTransfer.setData("text", "You have drag a circle");
+    });
+
+    drop.addEventListener("dragover", e => e.preventDefault());
+
+    drop.addEventListener("drop", e => {
+      e.preventDefault();
+      const data = e.dataTransfer.getData("text");
+      dragResult.textContent = "Dropped: " + data;
+    });
+
+    // Geolocation
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(pos => {
+          geoResult.innerHTML = "Latitude: " + pos.coords.latitude + "<br>" +
+                               "Longitude: " + pos.coords.longitude;
+        }, err => {
+          geoResult.textContent = "Error: " + err.message;
+        });
+      } else {
+        geoResult.textContent = "Geolocation not supported.";
+      }
+    }
+
+    // Web Storage
+    function saveData() {
+      const value = document.getElementById("dataInput").value;
+      localStorage.setItem("myData", value);
+      storageResult.textContent = "Saved!";
+    }
+
+    function loadData() {
+      const value = localStorage.getItem("myData");
+      storageResult.textContent = value ? "Loaded: " + value : "No data found.";
+    }
+  </script>
+
+</body>
+</html>
