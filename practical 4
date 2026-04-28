@@ -1,0 +1,53 @@
+<html>
+<title> practical 4</title>
+<h1>Sujal Pandole personal timetable</h1>
+<h2>CS25048</h2>
+<body bgcolor = "yellow">
+<table border = "3">
+<tr>
+    <th>Day/Time</th>
+    <th>7-8</th>
+    <th>8-9</th>
+    <th>9-10</th>
+    <th>10-12:30</th>
+</tr>
+<tr>
+    <th>Monday</th>
+    <th>SMP</th>
+    <th>Chemistry</th>
+    <th rowspan = "6">Dinner</th>
+    <th>Social meadia</th>
+</tr>
+</tr>
+    <th>Tuesday</th>
+    <th>EGD</th>
+    <th>Chemistry</th>
+    <th>Social meadia</th>
+</tr>
+<tr>
+    <th>Wednesday</th>
+    <th>Maths</th>
+    <th>Chemistry</th>
+    <th>Social media</th>
+</tr>
+<tr>
+    <th>Thursday</th>
+    <th>SMP</th>
+    <th>Chemistry</th>
+    <th>Social media</th>
+</tr>
+<tr>
+    <th>Friday</th>
+    <th>SMP</th>
+    <th>Maths</th>
+    <th>Social media</th>
+</tr>
+<tr>
+    <th>Saturday</th>
+    <th>Sports</th>
+    <th>Electrical</th>
+    <th>Social media</th>
+</tr>
+</table>
+</body>
+</html>
