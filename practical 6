@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>PAN Card Registration Form</title>
+</head>
+
+<body bgcolor = "green">
+
+<h2>PAN Card Registration Form</h2>
+
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+Select Language :
+<select>
+<option>English</option>
+<option>Hindi</option>
+<option>Bengali</option>
+<option>Urdu</option>
+</select>
+<br><br>
+Title :
+<select>
+<option>Shri</option>
+<option>Smt</option>
+<option>Kumari</option>
+</select>
+<br><br>
+<label>First Name:</label>
+<input type="text" name="fname">
+
+<label>Middle name:</label>
+<input type = "text" name = "mname">
+
+<label>last name:</label>
+<input type = "text" name = "lname"><br><br>
+
+<label>Date of Birth:</label>
+<input type="date" name="dob"><br><br>
+
+<label>Gender:</label>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Contact Details</legend>
+
+<label>Email ID:</label>
+<input type="email" name="email">
+
+<label>Mobile Number:</label>
+<input type="tel" name="mobile">
+
+<label>Address:</label>
+<input type="text area" name="address"><br><br>
+
+<label>City:</label>
+<select name="city">
+<option value="">Select city</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Nagpur">Nagpur</option>
+<option value="Amravati">Amravati</option>
+<option value="Akola">Akola</option>
+</select>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Identity Details</legend>
+
+<label>Aadhaar Number:</label>
+<input type="text" name="aadhaar">
+<br><br>
+<label>Documents Submitted:</label><br>
+<input type="checkbox" name="doc" value="aadhaar"> Aadhaar Card<br>
+<input type="checkbox" name="doc" value="passport"> Passport<br>
+<input type="checkbox" name="doc" value="voter"> Voter ID<br>
+<input type="checkbox" name="doc" value="license"> Driving License
+</fieldset>
+
+<input type="checkbox" name="doc" value="check">By submitting data to us and/or using our Protean e-Gov TIN web site https://onlineservices.proteantech.in/paam/endUserRegisterContact.html you give your consent that all personal data/information that you submit to avail tax related services from Protean eGov Technologies Limited may be received, stored, processed, transmitted and or made available for view /use as mandated by law or otherwise, shall be dealt with by us in the manner and for the purposes specified / as described in the privacy policy or as mandated by law. I have also read, understood and expressly agree to be bound by the Privacy Policy https://tinpan.proteantech.in/privacy-policy, Disclaimer and web-site usage guidelines as published by Protean on its website from time to time<br>
+
+<br>
+
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
